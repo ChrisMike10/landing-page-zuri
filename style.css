@@ -99,7 +99,7 @@
    color: hsl(246, 25%, 77%);
  }
 
- @media screen and (max-width: 375px) {
+ @media screen and (max-width: 475px) {
    .wrapper {
       display: block;
       height: 100%;

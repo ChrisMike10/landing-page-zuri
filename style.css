@@ -99,31 +99,29 @@
    color: hsl(246, 25%, 77%);
  }
 
- @media only screen and (max-device-width: 375px) {
-   .body {
+  @media only screen and (max-width: 375px) {
+   .wrapper {
       display: block;
-      height: 100%;
-      text-align: center;
-      line-height: 1;
-      position: absolute;
-   }
-   .left{
       width: 100%;
-      margin-top: -30px;
-       display: block;
-   }
-   h1{
-      font-size: 25px;
-   }
-   p {
-      font-size: 15px;
-   }
-   .right {
-      width: 100%;
-      margin-top: -75%;
       
    }
-   button {
-      height: 50px;
+   .left {
+      width: 100%;
+      line-height: 1;
+      margin-top: -40px;
    }
- } 
+   h1 {
+      margin-top: -100px;
+      font-size: 25px;
+   
+   }
+   p{
+      font-size: 16px;
+   }
+
+
+   .right {
+      width: 100%;
+      margin-top: -70%;
+   }
+ }

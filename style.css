@@ -100,11 +100,12 @@
  }
 
  @media only screen and (max-device-width: 375px) {
-   .wrapper {
+   .body {
       display: block;
       height: 100%;
       text-align: center;
       line-height: 1;
+      position: absolute;
    }
    .left{
       width: 100%;
@@ -115,7 +116,7 @@
       font-size: 25px;
    }
    p {
-      font-size: 16px;
+      font-size: 15px;
    }
    .right {
       width: 100%;
